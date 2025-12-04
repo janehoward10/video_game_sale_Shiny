@@ -58,7 +58,7 @@ ui <- fluidPage(
     
     mainPanel(
       p("This app uses a linear regression model to predict global video game sales (in millions) using the video game's release year, genre, and platform."),
-      p("The Video Games dataset comes from Kaggle and contains historical sales for 16,000 games across several platforms. 
+      p("The Video Games dataset comes from Kaggle and contains historical sales for over 16,000 games across several platforms. 
         The model is trained on a random subset of the data, the training set, and evaluated on remaining games (test)."),
       p("Use the controls on the left to change the training split and select a genre, platform, and year. The app will then retrain the linear model, 
         compute the RMSE, and predict the global sales for a hypothetical game with the chosen characteristics from the left."),
