@@ -1,5 +1,8 @@
+#library(shiny)
+#library(tidyverse)
 library(shiny)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
 
 
 games <- read.csv("vgsales.csv")
